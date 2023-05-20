@@ -1,0 +1,57 @@
+.Container {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 55%;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+.images {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Inside {
+    display:flex;
+    justify-content:flex-start;
+    gap: 20px;
+}
+.Texts {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+ .Texts div {
+   display: flex;
+   flex-direction: column;
+}
+button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(214, 77, 226);
+    width: 70%;
+    transition-duration: 0.4s;
+    
+}
+button:hover {
+    background-color: rgb(147, 41, 156);
+    color: white;
+  }
+.Name {
+    font-weight: bold;
+}
+.PersonList {
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+}
